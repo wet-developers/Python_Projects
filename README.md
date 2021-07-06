@@ -2,6 +2,7 @@
 
 For FullStackApps:
 
+Front End -
 For react apps, run npx create-react-app 'Project name' to create the framework directory.
 
 
@@ -22,3 +23,6 @@ We suggest that you begin by typing:
 
   #cd front-end-app
   #npm start
+
+Back End -
+To run the flask application, execute flask run
