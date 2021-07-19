@@ -14,13 +14,13 @@ function showEntry(props) {
 }
 function App() {
   return (
-    <>
+    <div>
       <showEntry>
         email = "austinpelto16@gmail.com"
         fullname = "Austin Pelto"
         phonenumber = "+7036385794"
       </showEntry>
-    </>
+    </div>
   );
 }
 

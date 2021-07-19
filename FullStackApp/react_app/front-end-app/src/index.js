@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Carousel from './components/carousel'
+import Navbar from './components/navbar'
+import Footer from './components/footer'
+import Table from './components/table'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Carousel />
+    <Navbar />
+    <Footer />
+    <Table />
   </React.StrictMode>,
   document.getElementById('root')
 );
